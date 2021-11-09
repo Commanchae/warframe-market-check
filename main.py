@@ -2,9 +2,20 @@ from bs4 import BeautifulSoup
 import requests
 from os import system
 import json
-
+# Currently in development, cannot be used.
 # Inventory
 inventory = []
+
+# Current Goals
+
+'''
+TO-DO
+
+[1] Finish the scraping with formatted output.
+[2] Fix the input system to make it more user-friendly.
+[3] Make the output more efficient for use (get the top 3 output)
+[4] Allow user to message the seller/buyer. 
+'''
 
 def getOrderPrice(order):
     return order["platinum"]
